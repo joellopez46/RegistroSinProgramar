@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Buscar.png" />
+    <None Remove="eliminar.jpg" />
+    <None Remove="gu.png" />
+    <None Remove="new.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Buscar.png" />
+    <Resource Include="eliminar.jpg" />
+    <Resource Include="gu.png" />
+    <Resource Include="new.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Entidades\" />
+    <Folder Include="DAL\" />
+  </ItemGroup>
+
+</Project>
