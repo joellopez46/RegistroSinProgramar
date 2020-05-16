@@ -7,6 +7,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="DAL\**" />
+    <Compile Remove="Entidades\**" />
+    <EmbeddedResource Remove="DAL\**" />
+    <EmbeddedResource Remove="Entidades\**" />
+    <None Remove="DAL\**" />
+    <None Remove="Entidades\**" />
+    <Page Remove="DAL\**" />
+    <Page Remove="Entidades\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Remove="Buscar.png" />
     <None Remove="eliminar.jpg" />
     <None Remove="gu.png" />
@@ -18,11 +29,6 @@
     <Resource Include="eliminar.jpg" />
     <Resource Include="gu.png" />
     <Resource Include="new.jpg" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Entidades\" />
-    <Folder Include="DAL\" />
   </ItemGroup>
 
 </Project>
